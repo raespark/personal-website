@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
-import Navbar from './components/Navbar/Navbar'
+import Navbar from './Components/Navbar/Navbar'
+import Header from './Components/Header/Header';
 import './App.css';
 
 class App extends Component {
@@ -9,7 +10,7 @@ class App extends Component {
 
     this.links = [
       {
-        url: '#AboutMe',
+        url: '#About',
         text: 'About Me'
       },
       {
@@ -22,7 +23,7 @@ class App extends Component {
       },
       {
         url: '#Contact',
-        text: 'Contact Me'
+        text: 'Contact'
       }
     ]
   }
@@ -32,11 +33,7 @@ class App extends Component {
       <div className="App">
         <Helmet title="Rachael Metcalf"/>
         <Navbar links={this.links}/>
-        <header className="App-header">
-          <h1 className="App-title shadowed-text">Rachael Metcalf</h1>
-          <h3 className="shadowed-text">Software Developer</h3>
-          <h4 className="shadowed-text">Full Stack</h4>
-        </header>
+        <Header/>
       </div>
     );
   }

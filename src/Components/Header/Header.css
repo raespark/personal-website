@@ -1,0 +1,19 @@
+
+.header {
+    background-image: url('../../Assets/background.jpg');
+    background-size: cover;
+    opacity: .8;
+    background-color: rgb(172, 172, 172);
+    background-position: center;
+    height: calc(100vh - 55px);
+    color: white;
+  }
+  
+  .title {
+    padding-top: 30vh;
+    font-size: 10vw;
+  }
+  
+  .shadowed-text {
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, .9);
+  }
