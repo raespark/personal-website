@@ -1,3 +1,25 @@
-.projects-body {
-    padding: 10px 120px;
+.projects-text {
+    text-align: left;
+    padding: 20px 50px;
+}
+
+@media (min-width: 767px) {
+    .projects-image {
+        max-width: 40vw;
+        min-height: 80%;
+        margin: 15px 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-image {
+        max-width: 60vw;
+        min-height: 80%;
+        margin: 10px;
+    }
+}
+
+.link-list li {
+    list-style: none;
+    padding-left: 20px;
 }

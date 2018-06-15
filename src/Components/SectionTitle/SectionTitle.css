@@ -7,10 +7,10 @@ a.anchor {
 
 .section-header {
     opacity: .8;
-    background-color: rgb(194, 29, 117);
+    background-color: rgb(236, 81, 112);
     width: 100vw;
     height: 15vmin;
-    color: white;
+    color: black;
     margin-bottom: 15px;
     box-shadow: 0 2px 3px rgb(0, 0, 0, .3);
   }
