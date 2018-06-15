@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import Navbar from './components/Navbar/Navbar'
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -34,8 +33,9 @@ class App extends Component {
         <Helmet title="Rachael Metcalf"/>
         <Navbar links={this.links}/>
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title shadowed-text">Rachael Metcalf</h1>
+          <h3 className="shadowed-text">Software Developer</h3>
+          <h4 className="shadowed-text">Full Stack</h4>
         </header>
       </div>
     );

@@ -1,6 +1,16 @@
 .navbar-fixed {
     top: 0;
     z-index: 100;
-  position: fixed;
+    position: fixed;
     width: 100%;
+    background-color: rgb(194, 29, 117);
+    box-shadow: 0 2px 3px rgb(0, 0, 0, .3);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.8);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(255,255,255);
 }
