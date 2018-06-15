@@ -1,0 +1,19 @@
+
+.section-header {
+    opacity: .8;
+    background-color: rgb(194, 29, 117);
+    width: 100vw;
+    height: 15vmin;
+    color: white;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 3px rgb(0, 0, 0, .3);
+  }
+  
+.section-title {
+    padding: 5px 20px;
+    font-size: 10vmin;
+}
+  
+.shadowed-text {
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, .9);
+}

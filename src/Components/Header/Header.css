@@ -1,5 +1,5 @@
 
-.header {
+.site-header {
     background-image: url('../../Assets/background.jpg');
     background-size: cover;
     opacity: .8;
@@ -7,13 +7,14 @@
     background-position: center;
     height: calc(100vh - 55px);
     color: white;
-  }
+    box-shadow: 0 5px 5px rgb(0, 0, 0, .3);
+}
   
-  .title {
+.site-title {
     padding-top: 30vh;
     font-size: 10vw;
-  }
+}
   
-  .shadowed-text {
+.shadowed-text {
     text-shadow: 2px 2px 1px rgba(0, 0, 0, .9);
-  }
+}
