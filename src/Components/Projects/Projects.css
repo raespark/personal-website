@@ -3,17 +3,17 @@
     padding: 20px 50px;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 999px) {
     .projects-image {
-        max-width: 40vw;
+        max-width: 55vw;
         min-height: 80%;
         margin: 15px 50px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .projects-image {
-        max-width: 60vw;
+        max-width: 80vw;
         min-height: 80%;
         margin: 10px;
     }

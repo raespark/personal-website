@@ -1,3 +1,8 @@
 .about-body {
-    margin: 10px 10vw;
+    padding: 30px
+}
+
+.picture-of-me {
+    max-height: 350px;
+    padding: 20px 25px;
 }
