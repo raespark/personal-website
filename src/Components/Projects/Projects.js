@@ -6,7 +6,7 @@ class Projects extends Component {
 
   render() {
     return (
-        <div id="Projects">
+        <div>
         <SectionTitle title="Projects"/>
         <p className="projects-body">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Convallis convallis tellus id interdum velit laoreet id donec. Id nibh tortor id aliquet lectus proin nibh nisl condimentum. Semper eget duis at tellus at. Enim ut tellus elementum sagittis vitae et leo duis. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Non pulvinar neque laoreet suspendisse interdum consectetur. Leo integer malesuada nunc vel risus commodo viverra maecenas accumsan. Magna fringilla urna porttitor rhoncus dolor purus non enim. Eu mi bibendum neque egestas. Bibendum enim facilisis gravida neque convallis a cras semper auctor. Cum sociis natoque penatibus et magnis dis parturient montes nascetur. Aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Suspendisse in est ante in nibh mauris cursus mattis. Nunc non blandit massa enim. Adipiscing diam donec adipiscing tristique risus nec feugiat in.

@@ -13,22 +13,10 @@ class App extends Component {
     super(props);
 
     this.links = [
-      {
-        url: '#About',
-        text: 'About Me'
-      },
-      {
-        url: '#Projects',
-        text: 'Projects'
-      },
-      {
-        url: '#Experience',
-        text: 'Experience'
-      },
-      {
-        url: '#Contact',
-        text: 'Contact'
-      }
+      'About',
+      'Projects',
+      'Experience',
+      'Contact'
     ]
   }
 

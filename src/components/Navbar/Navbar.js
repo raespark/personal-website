@@ -2,6 +2,11 @@ import React from 'react';
 import './Navbar.css';
 
 export default class Navigation extends React.Component {
+    scrollToAnchor(id) {
+       let section = document.getElementById(id);
+        section.scrollIntoView({behavior: "smooth", block: "start"});
+    }
+
     render() {
         return (
             <div className="nav">
@@ -13,7 +18,7 @@ export default class Navigation extends React.Component {
                         <ul className="navbar-nav">
                             {this.props.links.map((link) => (   
                                 <li className="nav-item">
-                                    <a className="nav-link" href={link.url}>{link.text}</a>
+                                    <a className="nav-link" onClick={() => {this.scrollToAnchor(link)}}>{link}</a>
                                 </li>
                             ))}
                         </ul>
