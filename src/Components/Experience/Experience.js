@@ -39,7 +39,8 @@ class Experience extends Component {
             <h3>Work Experience</h3>
             <div className="experience-section">
               <h5>HomeAway (2017 - Present)</h5>
-              <p>Full Stack Software Engineer. <br />
+              <h6>Full Stack Software Engineer.</h6>
+              <p className="work-experience-description">
                 Started by working on internal tools and applications for the company as a primarily Front End role,
                 and currently work as a part of the Identity Team,
               building applications helping to build applications for our users in both Front End and Back End.</p>

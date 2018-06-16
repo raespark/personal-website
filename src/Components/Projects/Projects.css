@@ -1,6 +1,15 @@
-.projects-text {
-    text-align: left;
-    padding: 20px 80px;
+@media(min-width: 767px) {
+    .projects-text {
+        text-align: left;
+        padding: 20px 80px;
+    }
+}
+
+@media(max-width: 768px) {
+    .projects-text {
+        text-align: left;
+        padding: 20px 40px;
+    }
 }
 
 .projects-image-div {

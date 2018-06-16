@@ -12,8 +12,8 @@ class Contact extends Component {
     return (
         <div>
         <SectionTitle title="Contact"/>
-            <div className="row">
-                <div className="col-xs-12 col-sm-4">
+            <div className="row contacts">
+                <div className="col-xs-4">
                     <Link 
                         url="https://github.com/raespark" 
                         content={
@@ -24,7 +24,7 @@ class Contact extends Component {
                         }
                     />
                 </div>
-                <div className="col-xs-12 col-sm-4">
+                <div className="col-xs-4">
                     <Link 
                         url="https://www.linkedin.com/in/rachael-metcalf-7b73248a/" 
                         content={
@@ -35,7 +35,7 @@ class Contact extends Component {
                         }
                     />
                 </div>
-                <div className="col-xs-12 col-sm-4">
+                <div className="col-xs-4">
                     <Link 
                         url="mailto:rachael.metcalf@utexas.edu" 
                         content={
