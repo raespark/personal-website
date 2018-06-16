@@ -11,14 +11,14 @@ class Projects extends Component {
         <div>
         <SectionTitle title="Projects"/>
         <div className="row">
-          <div className="col-sm-12 order-lg-last col-lg-8 project-image">
+          <div className="col-xs-12 projects-image-div">
             <img className="projects-image" src={majopon} alt="Majopon screenshot"/>
           </div>
-          <div className="col-sm-12 order-lg-first col-lg-4 projects-text">
-            <h4 className="project-title">Majopon (Pictured):</h4>
+          <div className="col-sm-12 col-lg-6 projects-text">
+            <h4 className="project-title">Majopon:</h4>
             <p className="project-description">
-            A pong-like game made for the <Link url="https://itch.io/jam/makecutepong" text="Femicom make cute pong game jam."/>
-            Made in the <Link url="https://godotengine.org/" text="Godot engine"/> over the course of about 2 weeks, 
+            A pong-like game made for the <Link url="https://itch.io/jam/makecutepong" content="Femicom make cute pong game jam."/>
+            Made in the <Link url="https://godotengine.org/" content="Godot engine"/> over the course of about 2 weeks, 
             as a completely independent project. The rules of the game is similar to pong, 
             if the ball (or in this case magic spell) gets past you, the other player gets a point. Player with the most points wins. 
             However, in this game you control the spawning of "the ball" by casting as many spells as you want!
@@ -28,8 +28,18 @@ class Projects extends Component {
             </p>
             <h5>links:</h5>
             <div className="link-list">
-              <li><Link url="https://raespark.itch.io/majopon" text="Download"/></li>
-              <li><Link url="https://github.com/raespark/Majopon" text="Source"/></li>
+              <li><Link url="https://raespark.itch.io/majopon" content="Download"/></li>
+              <li><Link url="https://github.com/raespark/Majopon" content="Source"/></li>
+            </div>
+          </div>
+          <div className="col-sm-12 col-lg-6 projects-text">
+            <h4 className="project-title">Personal Website:</h4>
+            <p className="project-description">
+            The site you're currently using! Made in react and node, using Bootstrap for some styling and components.
+            </p>
+            <h5>links:</h5>
+            <div className="link-list">
+              <li><Link url="https://github.com/raespark/personal-website" content="Source"/></li>
             </div>
           </div>
         </div>

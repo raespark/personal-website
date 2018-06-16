@@ -1,22 +1,17 @@
 .projects-text {
     text-align: left;
-    padding: 20px 50px;
+    padding: 20px 80px;
 }
 
-@media (min-width: 999px) {
-    .projects-image {
-        max-width: 55vw;
-        min-height: 80%;
-        margin: 15px 50px;
-    }
+.projects-image-div {
+    width: 100%;
 }
 
-@media (max-width: 1000px) {
-    .projects-image {
-        max-width: 80vw;
-        min-height: 80%;
-        margin: 10px;
-    }
+.projects-image {
+    max-width: 80vw;
+    min-height: 80%;
+    display: block;
+    margin: 15px auto;
 }
 
 .link-list li {
