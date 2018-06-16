@@ -29,6 +29,7 @@ class Experience extends Component {
                   <li>React - Expert</li>
                   <li>Git - Expert</li>
                   <li>Redux- Competent</li>
+                  <li>Node JS - Competent </li>
                   <li>Dropwizard - Competent</li>
                   <li>Maven - Competent</li>
                 </div>
@@ -43,7 +44,8 @@ class Experience extends Component {
               <p className="work-experience-description">
                 Started by working on internal tools and applications for the company as a primarily Front End role,
                 and currently work as a part of the Identity Team,
-              building applications helping to build applications for our users in both Front End and Back End.</p>
+                helping to build applications to build trust within our marketplace, 
+                working on both Front End and Back End.</p>
             </div>
           </div>
         </div>
