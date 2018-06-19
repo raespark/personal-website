@@ -12,7 +12,7 @@ class Experience extends Component {
           <div className="col-xs-12 col-sm-6">
             <h3>Skills</h3>
             <div className="row">
-              <div className="col-xs-12 col-md-4 experience-section">
+              <div className="col-xs-12 col-md-3 experience-section">
                 <h5>Languages</h5>
                 <div className="skill-list">
                   <li>Javascript - Expert</li>
@@ -23,7 +23,7 @@ class Experience extends Component {
                   <li>SQL - Competent</li>
                 </div>
               </div>
-              <div className="col-xs-12 col-md-4 experience-section">
+              <div className="col-xs-12 col-md-3 experience-section">
                 <h5>Frameworks/Tools</h5>
                 <div className="skill-list">
                   <li>React - Expert</li>
@@ -36,7 +36,7 @@ class Experience extends Component {
               </div>
             </div>
           </div>
-          <div className="col-xs-12 col-sm-4">
+          <div className="col-xs-12 col-sm-6">
             <h3>Work Experience</h3>
             <div className="experience-section">
               <h5>HomeAway (2017 - Present)</h5>
