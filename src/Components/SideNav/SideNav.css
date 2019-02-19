@@ -1,0 +1,41 @@
+.side-nav {
+    position: fixed;
+    top: 0px;
+    margin-left: 5%;
+    width: 340px;
+}
+
+.side-nav .side-nav-body {
+    background: white;
+    border-radius: 0 0 10px 10px;
+    align-content: center;
+    padding-bottom: 20px;
+}
+
+.side-nav .side-nav-body .side-nav-photo .photo{
+    height: 200px;
+    height: 200px;
+    margin: 15px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid rgba(33, 37, 41, .2);
+}
+
+.side-nav .side-nav-body .side-nav-header {
+    margin-bottom: 50px;
+}
+
+.side-nav .side-nav-body .side-nav-header .side-nav-title {
+    margin: 10px;
+}
+
+
+.side-nav .side-nav-contat {
+    align-content: center; 
+}
+
+.side-nav .side-nav-contact .contact {
+    max-height: 50px;
+    max-width: 50px;
+    margin: 10px;
+}

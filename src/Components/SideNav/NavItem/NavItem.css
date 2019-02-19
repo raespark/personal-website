@@ -1,0 +1,12 @@
+.side-nav-item {
+    background-color: white;
+    padding: 15px;
+}
+
+.side-nav-item:hover {
+    background-color: lightgray;
+}
+
+.side-nav-item h3 {
+    margin: 0;
+}

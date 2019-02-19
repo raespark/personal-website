@@ -1,4 +1,20 @@
-.App {
+.app {
+  display: flex;
   text-align: center;
-  padding-top: 55px;
+  background-image: url('Assets/background.png');
+  padding-bottom: 100px;
+}
+
+.app .main-content {
+  flex: 0 0 60%;
+  margin-left: 35%;
+  height: 2000px;
+  background-color: white;
+}
+
+hr {
+  margin: 0;
+  color: rgba(33, 37, 41, .1);
+  border-color: rgba(33, 37, 41, .1);
+  background-color: rgba(33, 37, 41, .1);
 }
