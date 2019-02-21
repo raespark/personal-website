@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './SectionTitle.css';
+import './SubTitle.css';
 
-class SectionTitle extends Component {
+class SubTitle extends Component {
   constructor(props) {
     super(props);
   }
@@ -13,13 +13,12 @@ class SectionTitle extends Component {
   render() {
     let title = this.props.title ? this.capitalizeFirstLetter(this.props.title) : '';
     return (
-        <div>
-            <span class="anchor" id={this.props.title}/>
-            <h1 className="section-title">{title}</h1>
-            <hr className="section-title-hr"/>
+        <div className="sub-title">
+            <h3 className="sub-title-text">{title}</h3>
+            <hr className="sub-title-hr"/>
         </div>
     );
   }
 }
 
-export default SectionTitle;
+export default SubTitle;

@@ -5,21 +5,13 @@
     visibility: hidden;
 }
 
-.section-header {
-    opacity: .8;
-    background-color: rgb(236, 81, 112);
-    width: 100vw;
-    height: 15vmin;
-    color: black;
-    margin-bottom: 15px;
-    box-shadow: 0 2px 3px rgb(0, 0, 0, .3);
-  }
-  
 .section-title {
-    padding: 5px 20px;
-    font-size: 10vmin;
+    padding-left: 50px;
+    text-align: left;
 }
   
-.shadowed-text {
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, .9);
+.section-title-hr {
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
 }

@@ -1,0 +1,22 @@
+.skill {
+  margin: 5px;
+}
+
+.skill-large {
+  margin: 20px;
+}
+
+.skill .skill-icon .icon-large {
+  max-height: 150px;
+  max-width: 150px;
+}
+
+.skill .skill-icon .icon {
+  max-height: 75px;
+  max-width: 75px;
+  margin: 30px;
+}
+
+.skill .sub-label {
+  margin-top: 20px;
+}

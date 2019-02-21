@@ -37,7 +37,7 @@ const Images = {
   node: Node,
   react: React,
   redux: Redux,
-  comminucation: Communication,
+  communication: Communication,
   leadership: Leadership,
   mentorship: Mentorship
 };
