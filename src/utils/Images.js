@@ -4,6 +4,7 @@ import Linkedin from '../Assets/linkedin.png';
 import Me from '../Assets/me.jpg';
 
 import Banner from '../Assets/banner.jpg';
+import Flower from '../Assets/flower-accent.png';
 
 import Java from '../Assets/skills/languages/java.png';
 import Javascript from '../Assets/skills/languages/javascript.png';
@@ -27,6 +28,7 @@ const Images = {
   linkedin: Linkedin,
   me: Me,
   banner: Banner,
+  flower: Flower,
   java: Java,
   javascript: Javascript,
   python: Python,
