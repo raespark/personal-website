@@ -14,7 +14,7 @@ class SectionTitle extends Component {
     let title = this.props.title ? this.capitalizeFirstLetter(this.props.title) : '';
     return (
         <div>
-            <span class="anchor" id={this.props.title}/>
+            <span className="anchor" id={this.props.title}/>
             <h1 className="section-title">{title}</h1>
             <hr className="section-title-hr"/>
         </div>

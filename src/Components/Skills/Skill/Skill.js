@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import './Skill.css';
 
 class Skill extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     let image = this.props.image;
     let label = this.props.label;
@@ -16,8 +12,8 @@ class Skill extends Component {
         <div className="skill-icon">
           <img className={large ? 'icon-large' : 'icon'} src={image}/>
         </div>
-        {large && <h4 className="label">{label}</h4>}
-        {!large && <h5 className="label">{label}</h5>}
+        {large && <h5 className="label">{label}</h5>}
+        {!large && <p className="label">{label}</p>}
         {subLabel && <p className="sub-label">{subLabel}</p>}
       </div>
     );

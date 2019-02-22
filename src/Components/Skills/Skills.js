@@ -6,10 +6,6 @@ import Images from '../../utils/Images';
 import './Skills.css';
 
 class Skills extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="skills">
@@ -27,8 +23,6 @@ class Skills extends Component {
             <Skill image={Images.redux} label={'Redux'}/>
             <Skill image={Images.node} label={'Node'}/>
             <Skill image={Images.mocha} label={'Mocha'}/>
-          </div>
-          <div className = 'skill-row'>
             <Skill image={Images.git} label={'Git'}/>
             <Skill image={Images.css} label={'CSS'}/>
             <Skill image={Images.bootstrap} label={'Bootstrap'}/>

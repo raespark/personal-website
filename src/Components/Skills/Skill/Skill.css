@@ -3,18 +3,21 @@
 }
 
 .skill-large {
-  margin: 20px;
+  margin: 10px;
 }
 
 .skill .skill-icon .icon-large {
-  max-height: 150px;
-  max-width: 150px;
+  height: 100px;
+  width: 100px;
 }
 
 .skill .skill-icon .icon {
-  max-height: 75px;
-  max-width: 75px;
-  margin: 30px;
+  height: 75px;
+  width: 75px;
+}
+
+.skill .label {
+  margin-top: 15px;
 }
 
 .skill .sub-label {

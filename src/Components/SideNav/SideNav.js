@@ -13,16 +13,20 @@ class SideNav extends Component {
             </div>
             <div className="side-nav-header">
               <div className="side-nav-title">
-                <h1>{'Rachael Metcalf'}</h1>
+                <h2>{'Rachael Metcalf'}</h2>
+              </div>
+              <div className="side-nav-title-divider">
+                <hr/>
               </div>
               <div className="side-nav-subtitle">
-                <h4>{'Software Engineer - UI'}</h4>
+                <h4>{'Software Engineer'}</h4>
+                <h5>{'UI/Full Stack'}</h5>
               </div>
             </div>
             <hr/>
             <div className="side-nav-links">
               <NavItem text='About'/>
-              <NavItem text='Experience'/>
+              <NavItem text='Skills'/>
               <NavItem text='Projects'/>
             </div>
         </div>

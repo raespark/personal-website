@@ -6,16 +6,11 @@ import Skills from './Components/Skills/Skills';
 import './App.css';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="app">
         <Helmet title="Rachael Metcalf"/>
         <SideNav/>
-        <div className="background">
           <div className="main-content">
               <div className="top-banner">
                 <Banner/>
@@ -25,7 +20,6 @@ class App extends Component {
                 <Banner/>
               </div>
           </div>
-        </div>
       </div>
     );
   }

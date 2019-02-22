@@ -3,10 +3,6 @@ import Images from '../../utils/Images';
 import './Banner.css';
 
 class Banner extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     let text = this.props.text;
     return (
