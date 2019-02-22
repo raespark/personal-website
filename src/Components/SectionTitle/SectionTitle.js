@@ -13,7 +13,7 @@ class SectionTitle extends Component {
         <div className="section-title">
             <span className="anchor" id={this.props.title}/>
             <h1 className="section-title-text">{title}</h1>
-            <div className="title-decoration">
+            <div className="title-decoration vertical-align">
               <img className="title-decoration-image"src={Images.flower}/>
             </div>
             <hr className="section-title-hr"/>

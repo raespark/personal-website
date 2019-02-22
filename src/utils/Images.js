@@ -6,6 +6,8 @@ import Me from '../Assets/me.jpg';
 import Banner from '../Assets/banner.jpg';
 import Flower from '../Assets/flower-accent.png';
 
+import Icon from '../Assets/rm-icon-pinkgrey.png';
+
 import Java from '../Assets/skills/languages/java.png';
 import Javascript from '../Assets/skills/languages/javascript.png';
 import Python from '../Assets/skills/languages/python.png';
@@ -29,6 +31,7 @@ const Images = {
   me: Me,
   banner: Banner,
   flower: Flower,
+  icon: Icon,
   java: Java,
   javascript: Javascript,
   python: Python,

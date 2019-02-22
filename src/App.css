@@ -47,3 +47,11 @@ hr {
   border-color: rgba(33, 37, 41, .1);
   background-color: rgba(33, 37, 41, .1);
 }
+
+.vertical-align {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}

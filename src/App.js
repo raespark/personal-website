@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import SideNav from './Components/SideNav/SideNav';
 import Banner from './Components/Banner/Banner';
+import About from './Components/About/About';
 import Skills from './Components/Skills/Skills';
 import './App.css';
 
@@ -15,6 +16,7 @@ class App extends Component {
               <div className="top-banner">
                 <Banner/>
               </div>
+              <About/>
               <Skills/>
               <div className="bottom-banner">
                 <Banner/>
