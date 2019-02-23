@@ -1,28 +1,32 @@
 import React, { Component } from 'react';
 import SectionTitle from '../SectionTitle/SectionTitle';
-import Images from '../../utils/Images';
-import ParagraphImage from '../ParagraphImage/ParagraphImage';
+import SubTitle from '../SubTitle/SubTitle';
+import WhoAmI from './WhoAmI/WhoAmI';
+import WorkExperience from './WorkExperience/WorkExperience';
+import Accomplishments from './Accomplishments/Accomplishments';
 import './About.css';
 
 class About extends Component {
   render() {
-    let workAbout = 'Hi, I\'m Rachael!  I\'ve been a professional web developer since June of 2017, ' +
-    'and graduated with a Bacholor of Science in Computer Science from UT Austin. I\'m a fullstack engineer with a focus in UI,  ' +
-    'and have a passion for good UX.  I also have experience leading multiple projects, organizations, ' + 
-    'working with people of all technical backgrounds, and designing applications, and taking them from concept to release.  '+
-    'I\'m always excited and amazed with every new thing I learn with each project I work on, and can\'t wait to see what my future holds!';
-
-    let hobbiesAbout = 'Outside of work, I have lots of things I like to do! I enjoy drawing, gaming, and even play music sometimes.  ' +
-    'I just love to be creative and one of my favorite ways to do that is by making games.  ' +
-    'Game development for me has been a way to flex my design muscles, dive into UX and code all in one!  ' +
-    'Feel free to checkout some of my games in the Projects section! I\'ve also been trying to learn to speak Japanese, ' +
-    'and hope to one day be able to hold casual conversations in the language.  がんばります！！';
-
+  
     return (
       <div className="about">
         <SectionTitle title="about"/>
-        <ParagraphImage text = {workAbout} image = {Images.icon}/>
-        <ParagraphImage text = {hobbiesAbout} image = {Images.hobbies} inverse/>
+        <SubTitle title="Who am I?"/>
+        <WhoAmI/>
+        <SubTitle title="What have I done?"/>
+        <div className="experience">
+          <WorkExperience 
+            jobTitle='Software Engineer'
+            company='HomeAway'
+            dates = {[
+              {description: 'Full Time (Front End)', time: '2017 - Present'},
+              {description: 'Intern (Front End)', time: 'Summer 2016'},
+              {description: 'Intern (Back End)', time: 'Summer 2015'}
+            ]}
+          />
+          <Accomplishments/>
+        </div>
       </div>
     );
   }

@@ -1,0 +1,28 @@
+.about .experience {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  flex-flow: row;
+}
+
+.about .experience .work-experience{
+  flex: 0 0 45%;
+}
+
+.about .experience .accomplishments {
+  flex: 0 0 55%
+}
+
+@media(max-width: 1200px) {
+  .about .experience {
+    flex-flow: row wrap;
+  }
+
+  .about .experience .work-experience, .about .experience .accomplishments {
+    flex: 0 0 100%;
+  }
+
+  .about .experience .accomplishments {
+    margin-top: 40px;
+  }
+}

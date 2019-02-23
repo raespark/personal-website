@@ -1,0 +1,12 @@
+.accomplishments .accomplishments-header {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.accomplishments ul {
+  list-style-type: circle;
+}
+
+.accomplishments ul li {
+  text-align: left;
+}
