@@ -1,9 +1,12 @@
-.paragraph-image {
+.paragraph-image, .paragraph-image-inverse {
   display: flex;
-  flex-flow: row;
   position: relative;
-  padding: 10px;
+  padding: 20px 10px;
   align-items: center;
+}
+
+.paragraph-image {
+  flex-flow: row;
 }
 
 .paragraph-image-inverse {
@@ -11,9 +14,17 @@
 }
 
 .paragraph-image .paragraph-image-image-div, .paragraph-image-inverse .paragraph-image-image-div {
-  flex: 1 0 20%;
+  flex: 1 0 30%;
+}
+
+.paragraph-image .paragraph-image-image-div {
   margin-left: 50px;
   margin-right: 30px;
+}
+
+.paragraph-image-inverse .paragraph-image-image-div {
+  margin-left: 30px;
+  margin-right: 50px;
 }
 
 .paragraph-image .paragraph-image-image-div .paragraph-image-image, .paragraph-image-inverse .paragraph-image-image-div .paragraph-image-image {
@@ -22,12 +33,17 @@
 }
 
 .paragraph-image .paragraph-image-paragraph, .paragraph-image-inverse .paragraph-image-paragraph{
-  flex: 0 1 60%;
-  padding-right: 20px;
+  flex: 0 1 55%;
 }
 
 .paragraph-image .paragraph-image-paragraph {
   text-align: left;
+  padding-right: 20px;
+}
+
+.paragraph-image-inverse .paragraph-image-paragraph {
+  text-align: right;
+  padding-left: 20px;
 }
 
 .paragraph {
@@ -39,7 +55,7 @@
     flex-flow: row wrap;
   }
   .paragraph-image-inverse {
-    flex-direction: row-reverse wrap;
+    flex-flow: row-reverse wrap;
   }
 
   .paragraph-image .paragraph-image-image-div .paragraph-image-image, .paragraph-image-inverse .paragraph-image-image-div .paragraph-image-image {
@@ -52,7 +68,8 @@
 
   .paragraph-image .paragraph-image-image-div, .paragraph-image-inverse .paragraph-image-image-div {
     margin-left: 0;
-    margin-bottom: 30px;
+    margin-right: 0;
+    margin-bottom: 20px;
   }
 
   .paragraph-image .paragraph-image-paragraph, .paragraph-image-inverse .paragraph-image-paragraph{
@@ -61,5 +78,10 @@
 
   .paragraph {
     text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .paragraph-image .paragraph-image-paragraph, .paragraph-image-inverse .paragraph-image-paragraph{
+    padding: 0 10px;
   }
 }

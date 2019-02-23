@@ -7,6 +7,7 @@ import Banner from '../Assets/banner.jpg';
 import Flower from '../Assets/flower-accent.png';
 
 import Icon from '../Assets/rm-icon-pinkgrey.png';
+import Hobbies from '../Assets/hobbies.png';
 
 import Java from '../Assets/skills/languages/java.png';
 import Javascript from '../Assets/skills/languages/javascript.png';
@@ -32,6 +33,7 @@ const Images = {
   banner: Banner,
   flower: Flower,
   icon: Icon,
+  hobbies: Hobbies,
   java: Java,
   javascript: Javascript,
   python: Python,

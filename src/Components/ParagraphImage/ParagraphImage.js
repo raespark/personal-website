@@ -8,7 +8,7 @@ class ParagraphImage extends Component {
     let inverse = this.props.inverse ? this.props.inverse : false;
     console.log(inverse);
     return (
-      <div className={inverse ? 'paragraph-image paragraph-image-reverse' : 'paragraph-image'}>
+      <div className={inverse ? 'paragraph-image-inverse' : 'paragraph-image'}>
         <div className="paragraph-image-image-div">
           <img className="paragraph-image-image" src={image}/>
         </div>
