@@ -1,0 +1,16 @@
+.navigation-item .navigation-text {
+    background-color: white;
+    padding: 15px;
+}
+
+.navigation-item .navigation-link {
+    cursor: pointer;
+}
+
+.navigation-item .navigation-text:hover {
+    background-color: lightgray;
+}
+
+.navigation-item .navigation-text h3 {
+    margin: 0;
+}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import capitalizeFirstLetter from '../../../utils/CapitalizeFirstLetter';
+import capitalizeFirstLetter from '../../utils/CapitalizeFirstLetter';
 import './NavItem.css';
 
 class NavItem extends Component {
@@ -12,9 +12,9 @@ class NavItem extends Component {
   render() {
     let text = capitalizeFirstLetter(this.props.text);
     return (
-      <div>
-        <a className="side-nav-link" onClick={() => {this.scrollToAnchor(this.props.text)}}>
-          <div className="side-nav-item">
+      <div className="navigation-item">
+        <a className="navigation-link" onClick={() => {this.scrollToAnchor(this.props.text)}}>
+          <div className="navigation-text">
             <h4>{text}</h4>
           </div>
         </a>

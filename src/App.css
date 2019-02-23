@@ -15,18 +15,12 @@
   border-radius: 0 0 10px 10px;
 }
 
-@media(max-width: 997px) {
-  .app .main-content {
-    margin-right: 25px;
-    margin-left: 275px;
-  }
+.app .mobile-contact-info .contact-info {
+  display: none;
 }
 
-@media(max-width: 767px) {
-  .app .main-content {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
+.app .nav-bar {
+  display: none;
 }
 
 .app .main-content .body{
@@ -54,4 +48,33 @@ hr {
   bottom: 0;
   display: flex;
   align-items: center;
+}
+
+@media(max-width: 997px) {
+  .app .main-content {
+    margin-right: 25px;
+    margin-left: 275px;
+  }
+}
+
+@media(max-width: 767px) {
+  .app {
+    padding-top: 80px;
+  }
+  
+  .app .main-content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .app .side-nav {
+      display: none;
+  } 
+  
+  .app .nav-bar {
+    display: block;
+  }
+
+  .app .mobile-contact-info .contact-info {
+    display: block;
+  }
 }
