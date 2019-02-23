@@ -3,6 +3,10 @@
     padding: 15px;
 }
 
+.side-nav-link {
+    cursor: pointer;
+}
+
 .side-nav-item:hover {
     background-color: lightgray;
 }

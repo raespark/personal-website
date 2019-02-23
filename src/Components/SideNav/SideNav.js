@@ -25,9 +25,9 @@ class SideNav extends Component {
             </div>
             <hr/>
             <div className="side-nav-links">
-              <NavItem text='About'/>
-              <NavItem text='Skills'/>
-              <NavItem text='Projects'/>
+              <NavItem text='about'/>
+              <NavItem text='skills'/>
+              <NavItem text='projects'/>
             </div>
         </div>
         <div className = "side-nav-contact">

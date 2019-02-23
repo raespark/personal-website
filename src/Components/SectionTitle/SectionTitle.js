@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import Images from '../../utils/Images';
+import capitalizeFirstLetter from '../../utils/CapitalizeFirstLetter';
 import './SectionTitle.css';
 
 class SectionTitle extends Component {
-  capitalizeFirstLetter(word) {
-    return word[0].toUpperCase() + word.substr(1);
-  }
-
   render() {
-    let title = this.props.title ? this.capitalizeFirstLetter(this.props.title) : '';
+    let title = this.props.title ? capitalizeFirstLetter(this.props.title) : '';
     return (
         <div className="section-title">
             <span className="anchor" id={this.props.title}/>
