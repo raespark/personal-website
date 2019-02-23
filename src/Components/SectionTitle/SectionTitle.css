@@ -16,11 +16,11 @@
     margin-left: 50px;
 }
 
-.title-decoration {
+.section-title .title-decoration {
     right: 50px;
 }
 
-.title-decoration-image {
+.section-title .title-decoration-image {
     height: 35px;
     width: 35px;
     opacity: .25;

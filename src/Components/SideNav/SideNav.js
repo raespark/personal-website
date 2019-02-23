@@ -34,6 +34,7 @@ class SideNav extends Component {
         <div className = "side-nav-contact">
             <ContactInfo/>
         </div>
+        <div className="copyright">{'© Rachael Metcalf'}</div>
       </div>
     );
   }

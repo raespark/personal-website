@@ -7,6 +7,7 @@ import Skills from './Components/Skills/Skills';
 import ContactInfo from './Components/ContactInfo/ContactInfo';
 import NavBar from './Components/NavBar/NavBar';
 import './App.css';
+import Welcome from './Components/Welcome/Welcome';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
               <div className="top-banner">
                 <Banner/>
               </div>
+              <Welcome/>
               <About/>
               <Skills/>
               <div className="bottom-banner">
@@ -27,6 +29,11 @@ class App extends Component {
           </div>
           <div className="mobile-contact-info">
             <ContactInfo/>
+          </div>
+          <div className="mobile-copyright">
+            <div className="copyright">
+              {'© Rachael Metcalf'}
+            </div>
           </div>
       </div>
     );

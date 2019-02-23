@@ -1,3 +1,8 @@
+@font-face {
+  font-family: handwriting;
+  src: url('./Assets/handwriting.ttf');
+}
+
 .app {
   position: relative;
   text-align: center;
@@ -50,6 +55,14 @@ hr {
   align-items: center;
 }
 
+.copyright {
+  color: white;
+}
+
+.app .mobile-copyright .copyright {
+  display: none;
+}
+
 @media(max-width: 997px) {
   .app .main-content {
     margin-right: 25px;
@@ -71,6 +84,10 @@ hr {
   } 
   
   .app .nav-bar {
+    display: block;
+  }
+
+  .app .mobile-copyright .copyright{
     display: block;
   }
 
