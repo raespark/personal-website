@@ -10,6 +10,7 @@
 }
 
 .about .experience .accomplishments {
+  padding-right: 40px;
   flex: 0 0 55%
 }
 
@@ -24,5 +25,6 @@
 
   .about .experience .accomplishments {
     margin-top: 40px;
+    padding-right: 20px;
   }
 }

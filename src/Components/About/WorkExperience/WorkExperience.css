@@ -27,3 +27,21 @@
   margin: 2px 10px;
   display: inline-block;
 } 
+
+@media(max-width: 767px) {
+  .work-experience .date .date-description {
+    width: 100%;
+  }
+  
+  .work-experience .date .date-time {
+    width: 100%;
+  }
+  
+  .work-experience .date .date-description, .work-experience .date .date-time {
+    text-align: center;
+  }
+  
+  .work-experience .date .date-separator {
+    display: none;
+  } 
+}

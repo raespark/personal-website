@@ -20,16 +20,20 @@
   border-radius: 0 0 10px 10px;
 }
 
+.app .main-content .body {
+  padding: 10px;
+}
+
+.app .side-nav {
+  margin-left: 50px;
+}
+
 .app .mobile-contact-info .contact-info {
   display: none;
 }
 
 .app .nav-bar {
   display: none;
-}
-
-.app .main-content .body{
-  height: 400px;
 }
 
 .app .main-content .top-banner {
@@ -63,13 +67,37 @@ hr {
   display: none;
 }
 
+/* ultra-wide monitor handling */
+@media(min-width: 2500px) {
+  .app .main-content {
+    margin-right: 500px;
+    margin-left: 800px; 
+  }
+
+  .app .main-content .body {
+    padding: 50px 200px;
+  }
+
+  .app .side-nav {
+    margin-left: 500px;
+  }
+
+}
+
+/* Tablet */
 @media(max-width: 997px) {
   .app .main-content {
     margin-right: 25px;
     margin-left: 275px;
   }
+
+  .app .side-nav {
+      margin-left: 10px;
+  }
+  
 }
 
+/* Mobile */
 @media(max-width: 767px) {
   .app {
     padding-top: 80px;
@@ -79,6 +107,11 @@ hr {
     margin-left: 20px;
     margin-right: 20px;
   }
+
+  .app .main-content .body {
+    padding: 5px;
+  }
+
   .app .side-nav {
       display: none;
   } 

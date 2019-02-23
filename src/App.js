@@ -20,9 +20,11 @@ class App extends Component {
               <div className="top-banner">
                 <Banner/>
               </div>
-              <Welcome/>
-              <About/>
-              <Skills/>
+              <div className="body">
+                <Welcome/>
+                <About/>
+                <Skills/>
+              </div>
               <div className="bottom-banner">
                 <Banner/>
               </div>
