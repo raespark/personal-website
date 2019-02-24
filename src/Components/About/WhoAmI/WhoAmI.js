@@ -5,7 +5,7 @@ import ParagraphImage from '../../ParagraphImage/ParagraphImage';
 class WhoAmI extends Component {
   render() {
     let workAbout = 'Hi, I\'m Rachael!  I\'ve been a professional web developer since June of 2017, ' +
-    'and graduated with a Bacholor of Science in Computer Science from UT Austin. I\'m a fullstack engineer with a focus in UI,  ' +
+    'and graduated with a Bachelor of Science in Computer Science from UT Austin. I\'m a fullstack engineer with a focus in UI,  ' +
     'and have a passion for good UX.  I also have experience leading multiple projects, organizations, ' + 
     'working with people of all technical backgrounds, and designing applications, and taking them from concept to release.  '+
     'I\'m always excited and amazed with every new thing I learn with each project I work on, and can\'t wait to see what my future holds!';
