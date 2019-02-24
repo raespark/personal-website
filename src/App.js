@@ -8,6 +8,7 @@ import ContactInfo from './Components/ContactInfo/ContactInfo';
 import NavBar from './Components/NavBar/NavBar';
 import './App.css';
 import Welcome from './Components/Welcome/Welcome';
+import Projects from './Components/Projects/Projects';
 
 class App extends Component {
   render() {
@@ -24,6 +25,7 @@ class App extends Component {
                 <Welcome/>
                 <About/>
                 <Skills/>
+                <Projects/>
               </div>
               <div className="bottom-banner">
                 <Banner/>

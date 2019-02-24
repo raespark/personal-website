@@ -4,7 +4,6 @@ import './Banner.css';
 
 class Banner extends Component {
   render() {
-    let text = this.props.text;
     return (
       <div>
         <div className="site-banner">

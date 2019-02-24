@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import './SubTitle.css';
 
 class SubTitle extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   capitalizeFirstLetter(word) {
     return word[0].toUpperCase() + word.substr(1);
   }

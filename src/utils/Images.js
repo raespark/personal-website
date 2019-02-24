@@ -25,6 +25,12 @@ import Communication from '../Assets/skills/soft/communication.png';
 import Leadership from '../Assets/skills/soft/leadership.png';
 import Mentorship from '../Assets/skills/soft/mentorship.png';
 
+import Grow from '../Assets/projects/grow.gif';
+import Tilted from '../Assets/projects/tilted.gif';
+import Majopon from '../Assets/projects/majopon.gif';
+import Here from '../Assets/projects/youarehere.png';
+
+
 const Images = {
   email: Email,
   github: Github,
@@ -46,7 +52,11 @@ const Images = {
   redux: Redux,
   communication: Communication,
   leadership: Leadership,
-  mentorship: Mentorship
+  mentorship: Mentorship,
+  grow: Grow,
+  tilted: Tilted,
+  majopon: Majopon,
+  here: Here
 };
 
 export default Images;

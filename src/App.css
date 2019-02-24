@@ -44,11 +44,24 @@
   padding-top: 30px;
 }
 
+ul {
+  list-style-type: circle;
+}
+
 hr {
   margin: 0;
   color: rgba(33, 37, 41, .1);
   border-color: rgba(33, 37, 41, .1);
   background-color: rgba(33, 37, 41, .1);
+}
+
+a {
+  color: #86606C;
+}
+
+a:hover {
+  color: #B53743;
+  cursor: pointer;
 }
 
 .vertical-align {

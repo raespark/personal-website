@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import NavItem from '../NavItem/NavItem';
-import Images from '../../utils/Images';
 import './NavBar.css'
 
 class NavBar extends Component {

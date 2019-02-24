@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Images from '../../utils/Images';
 import './Welcome.css'
 
 class Welcome extends Component {

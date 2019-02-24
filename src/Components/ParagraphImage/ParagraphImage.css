@@ -29,7 +29,8 @@
 
 .paragraph-image .paragraph-image-image-div .paragraph-image-image, .paragraph-image-inverse .paragraph-image-image-div .paragraph-image-image {
   object-fit: contain;
-  width: 250px;
+  max-width: 250px;
+  max-height: 200px;
 }
 
 .paragraph-image .paragraph-image-paragraph, .paragraph-image-inverse .paragraph-image-paragraph{
@@ -49,6 +50,12 @@
 .paragraph {
   margin-bottom: 0;
 }
+
+.paragraph-image .paragraph-image-paragraph .links-wrapper, .paragraph-image-inverse .paragraph-image-paragraph .links-wrapper{
+  text-align: center;
+  margin-top: 20px;
+}
+
 
 @media(max-width: 997px) {
   .paragraph-image {

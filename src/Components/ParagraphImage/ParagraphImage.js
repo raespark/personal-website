@@ -6,7 +6,7 @@ class ParagraphImage extends Component {
     let image = this.props.image;
     let paragraph = this.props.text;
     let inverse = this.props.inverse ? this.props.inverse : false;
-    console.log(inverse);
+    let links = this.props.links ? this.props.links : [];
     return (
       <div className={inverse ? 'paragraph-image-inverse' : 'paragraph-image'}>
         <div className="paragraph-image-image-div">
@@ -14,6 +14,20 @@ class ParagraphImage extends Component {
         </div>
         <div className="paragraph-image-paragraph">
           <p className="paragraph">{paragraph}</p>
+          {links.length > 0 && 
+            <div className="links-wrapper">
+              <div className="links">
+                {links.map((link) => {
+                  return (
+                  <div>
+                    <a target="_blank" rel="nofollow noopener noreferrer" href={link.url}>
+                      {`-${link.text}-`}
+                    </a>
+                  </div>
+                )})}
+              </div>
+            </div>
+          }
         </div>
       </div>
     );
