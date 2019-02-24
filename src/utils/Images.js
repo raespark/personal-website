@@ -32,31 +32,105 @@ import Here from '../Assets/projects/youarehere.png';
 
 
 const Images = {
-  email: Email,
-  github: Github,
-  linkedin: Linkedin,
-  me: Me,
-  banner: Banner,
-  flower: Flower,
-  icon: Icon,
-  hobbies: Hobbies,
-  java: Java,
-  javascript: Javascript,
-  python: Python,
-  bootstrap: Bootstrap,
-  css: CSS,
-  git: Git,
-  mocha: Mocha,
-  node: Node,
-  react: React,
-  redux: Redux,
-  communication: Communication,
-  leadership: Leadership,
-  mentorship: Mentorship,
-  grow: Grow,
-  tilted: Tilted,
-  majopon: Majopon,
-  here: Here
+  email: {
+    image: Email,
+    text: 'email icon'
+  },
+  github: {
+    image: Github,
+    text: 'Github icon'
+  },
+  linkedin: {
+    image: Linkedin,
+    text: 'Linkedin icon'
+  },
+  me: {
+    image: Me,
+    text: 'photo of me '
+  },
+  banner: {
+    image: Banner,
+    text: 'photo of sakura blossoms'
+  },
+  flower: {
+    image: Flower,
+    text: 'sakura blossom icon'
+  },
+  icon: {
+    image: Icon,
+    text: 'icon-like drawing of me'
+  },
+  hobbies: {
+    image: Hobbies,
+    text: 'combination of icons including a game controller, piano, pencil and paper, and a lucky cat with japanese for yes'
+  },
+  java: {
+    image: Java, 
+    text: 'Java logo'
+  },
+  javascript: {
+    image: Javascript, 
+    text: 'Javascript logo'
+  },
+  python: {
+    image: Python, 
+    text: 'Python logo'
+  },
+  bootstrap: {
+    image: Bootstrap, 
+    text: 'Bootstrap logo'
+  },
+  css: {
+    image: CSS, 
+    text: 'CSS logo'
+  },
+  git: {
+    image: Git, 
+    text: 'Git logo'
+  },
+  mocha: {
+    image: Mocha, 
+    text: 'Mocha logo'
+  },
+  node: {
+    image: Node, 
+    text: 'Node logo'
+  },
+  react: {
+    image: React, 
+    text: 'React logo'
+  },
+  redux: {
+    image: Redux, 
+    text: 'Redux logo'
+  },
+  communication: {
+    image: Communication, 
+    text: 'two speech bubbles icon'
+  },
+  leadership: {
+    image: Leadership, 
+    text: 'a person standing in front of other people icon'
+  },
+  mentorship: {
+    image: Mentorship, 
+    text: 'a hand with a sappling icon'
+  },
+  grow: {
+    image: Grow, 
+    text: 'gif of Grow gameplay'
+  },
+  tilted: {
+    image: Tilted, 
+    text: 'gif of Tilted gameplay'
+  },
+  majopon: {
+    image: Majopon, 
+    text: 'gif of Majopon gameplay'
+  },
+  here: {image: Here, 
+    text: 'world with location indicator icon'
+  }
 };
 
 export default Images;

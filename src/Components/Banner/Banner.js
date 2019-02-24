@@ -7,7 +7,7 @@ class Banner extends Component {
     return (
       <div>
         <div className="site-banner">
-          <img className="site-banner-image" src={Images.banner}/>
+          <img className="site-banner-image" src={Images.banner.image} alt={Images.banner.text}/>
         </div>
       </div>
     );

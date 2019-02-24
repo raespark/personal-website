@@ -10,7 +10,7 @@ class ParagraphImage extends Component {
     return (
       <div className={inverse ? 'paragraph-image-inverse' : 'paragraph-image'}>
         <div className="paragraph-image-image-div">
-          <img className="paragraph-image-image" src={image}/>
+          <img className="paragraph-image-image" src={image.image} alt={image.text}/>
         </div>
         <div className="paragraph-image-paragraph">
           <p className="paragraph">{paragraph}</p>

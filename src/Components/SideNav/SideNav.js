@@ -10,7 +10,7 @@ class SideNav extends Component {
       <div className="side-nav">
         <div className="side-nav-body">
             <div className="side-nav-photo">
-              <img className="photo" src={Images.me}/>
+              <img className="photo" src={Images.me.image} alt={Images.me.text}/>
             </div>
             <div className="side-nav-header">
               <div className="side-nav-title">

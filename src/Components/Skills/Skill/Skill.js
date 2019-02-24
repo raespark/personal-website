@@ -10,7 +10,7 @@ class Skill extends Component {
     return (
       <div className={large ? 'skill-large skill' : 'skill'}>
         <div className="skill-icon">
-          <img className={large ? 'icon-large' : 'icon'} src={image}/>
+          <img className={large ? 'icon-large' : 'icon'} src={image.image} alt={image.text}/>
         </div>
         {large && <h5 className="label">{label}</h5>}
         {!large && <p className="label">{label}</p>}
