@@ -4,7 +4,7 @@ import './Accomplishments.css';
 class Accomplishments extends Component {
   render() {
     let accomplishments = [
-      {text: 'Assisted in traing/mentoring new hires and interns starting at the company. ' + 
+      {text: 'Assisted in training/mentoring new hires and interns starting at the company. ' + 
       'Helping them to learn new skills, learn new tools and boosting their comfidence.'},
       {text: 'Took on a large, long-term project and broke it down into smaller, managable pieces. ' + 
       'Handled the planning, prioritzation, and management for the project through to completion while also working on the code.'},
