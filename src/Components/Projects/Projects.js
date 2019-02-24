@@ -11,9 +11,9 @@ class Projects extends Component {
         {
           title: 'Grow',
           description: 'An interactive experience made over the course of 4 days for the ExtraCredits Holiday 2018 Game Jam, ' + 
-          'and was chosen to be featured on the ExtraCredits YouTube channel for interesting design.' + 
-          'Levels are procedurely laid out adheering to specific rules to creat an immersive and relaxing simulation of a walk in the forest.  ' + 
-          'Made in the Godot engine',
+          'and was chosen to be featured on the ExtraCredits YouTube channel for interesting design.  ' + 
+          'Levels are procedurely laid out adheering to specific rules to create an immersive and relaxing simulation of a walk in the forest.  ' + 
+          'Made in the Godot engine.',
           image: Images.grow,
           links: [
             {text: 'Download', url: 'https://raespark.itch.io/grow'},
@@ -23,7 +23,7 @@ class Projects extends Component {
         {
           title: 'Tilted',
           description: 'A puzzle platformer that challenges the player by having the world around them shift as they move. ' + 
-          'Created for the very first ExtraCredits Game jam, over a weekend. Features one of the first songs I\'ve ever written!',
+          'Created for the very first ExtraCredits Game jam over a single weekend. Features one of the first songs I\'ve ever written!',
           image: Images.tilted,
           links: [
             {text: 'Play', url: 'https://raespark.itch.io/tilted'},
@@ -32,7 +32,7 @@ class Projects extends Component {
         },
         {
           title: 'Majopon',
-          description: 'A 2 player pong-like game where the players create the \"ball\" using a magic spell and try to block their opponent\'s spells from getting past them into the \"goal\"' + 
+          description: 'A 2-player pong-like game where the players create the \"ball\" using a magic spell and try to block their opponent\'s spells from getting past them into the \"goal\."  ' + 
           'Created over the course of about 2 weeks off and on between work for the 4th FEMICOM game jam in the Godot engine. Features some of my first animations, and my first experience with the Godot game engine.' ,
           image: Images.majopon,
           links: [
