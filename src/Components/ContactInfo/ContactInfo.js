@@ -6,7 +6,7 @@ class ContactInfo extends Component {
   render() {
     return (
         <div className = "contact-info">
-            <img className="contact contact-email" src={Images.email}/>
+            <a href="mailto:rmetcalf.codes@gmail.com"><img className="contact contact-email" src={Images.email}/></a>
             <a target="_blank" rel="nofollow noopener noreferrer" href="https://github.com/raespark">
             <img className="contact contact-github" src={Images.github}/>
             </a>
