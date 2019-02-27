@@ -17,9 +17,9 @@ class ParagraphImage extends Component {
           {links.length > 0 && 
             <div className="links-wrapper">
               <div className="links">
-                {links.map((link) => {
+                {links.map((link, key) => {
                   return (
-                  <div>
+                  <div key={key}>
                     <a target="_blank" rel="nofollow noopener noreferrer" href={link.url}>
                       {`-${link.text}-`}
                     </a>

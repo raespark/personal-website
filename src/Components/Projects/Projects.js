@@ -32,7 +32,7 @@ class Projects extends Component {
         },
         {
           title: 'Majopon',
-          description: 'A 2-player pong-like game where the players create the \"ball\" using a magic spell and try to block their opponent\'s spells from getting past them into the \"goal\."  ' + 
+          description: 'A 2-player pong-like game where the players create the "ball" using a magic spell and try to block their opponent\'s spells from getting past them into the "goal."  ' + 
           'Created over the course of about 2 weeks off and on between work for the 4th FEMICOM game jam in the Godot engine. Features some of my first animations, and my first experience with the Godot game engine.' ,
           image: Images.majopon,
           links: [
@@ -56,7 +56,7 @@ class Projects extends Component {
         <SectionTitle title="projects"/> 
         {projects.map((project, key) => {
           return (
-            <div>
+            <div key={key}>
               <SubTitle title={project.title}/>
               <ParagraphImage text={project.description} image={project.image} links={project.links} inverse={(key%2 === 0)}/>
             </div>

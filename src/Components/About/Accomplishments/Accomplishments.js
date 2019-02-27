@@ -14,8 +14,8 @@ class Accomplishments extends Component {
       <div className="accomplishments">
       <h4 className="accomplishments-header">Notable Accomplishments</h4>
         <ul>
-          {accomplishments.map((accomplishment) => {
-            return (<li className="accomplishment">
+          {accomplishments.map((accomplishment,key) => {
+            return (<li className="accomplishment" key={key}>
                 {accomplishment.text}
               </li>)
           })} 

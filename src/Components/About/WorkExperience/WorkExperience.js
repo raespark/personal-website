@@ -13,8 +13,8 @@ class WorkExperience extends Component {
         <h4>{jobTitle}</h4>  
         <h5>{company}</h5>
         <div className="dates">
-        {dates.map((date) => {
-          return (<div className="date">
+        {dates.map((date, key) => {
+          return (<div className="date" key={key}>
               <div className='date-description'>
                 {date.description}
               </div> 
