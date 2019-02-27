@@ -5,21 +5,35 @@
     visibility: hidden;
 }
 
-.section-header {
-    opacity: .8;
-    background-color: rgb(236, 81, 112);
-    width: 100vw;
-    height: 15vmin;
-    color: black;
-    margin-bottom: 15px;
-    box-shadow: 0 2px 3px rgb(0, 0, 0, .3);
-  }
-  
 .section-title {
-    padding: 5px 20px;
-    font-size: 10vmin;
+    position: relative;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.section-title-text {
+    margin-left: 50px;
+}
+
+.section-title .title-decoration {
+    right: 50px;
+}
+
+.section-title .title-decoration-image {
+    height: 35px;
+    width: 35px;
+    opacity: .25;
 }
   
-.shadowed-text {
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, .9);
+.section-title-hr {
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+@media(max-width: 767px) {
+    .anchor {
+        top: -75px;
+    }
 }

@@ -1,0 +1,9 @@
+.contact-info {
+  align-content: center; 
+}
+
+.contact-info .contact {
+  max-height: 50px;
+  max-width: 50px;
+  margin: 10px;
+}

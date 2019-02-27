@@ -1,35 +1,44 @@
 import React, { Component } from 'react';
 import Helmet from 'react-helmet';
-import Navbar from './Components/Navbar/Navbar'
-import Header from './Components/Header/Header';
+import SideNav from './Components/SideNav/SideNav';
+import Banner from './Components/Banner/Banner';
 import About from './Components/About/About';
-import Projects from './Components/Projects/Projects';
-import Experience from './Components/Experience/Experience';
-import Contact from './Components/Contact/Contact';
+import Skills from './Components/Skills/Skills';
+import ContactInfo from './Components/ContactInfo/ContactInfo';
+import NavBar from './Components/NavBar/NavBar';
 import './App.css';
+import Welcome from './Components/Welcome/Welcome';
+import Projects from './Components/Projects/Projects';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-
-    this.links = [
-      'About',
-      'Projects',
-      'Experience',
-      'Contact'
-    ]
-  }
-
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <Helmet title="Rachael Metcalf"/>
-        <Navbar links={this.links}/>
-        <Header/>
-        <About/>
-        <Projects/>
-        <Experience/>
-        <Contact/>
+        <NavBar/>
+        <SideNav/>
+          <div className="main-content">
+              <div className="top-banner">
+                <Banner/>
+              </div>
+              <div className="body">
+                <Welcome/>
+                <About/>
+                <Skills/>
+                <Projects/>
+              </div>
+              <div className="bottom-banner">
+                <Banner/>
+              </div>
+          </div>
+          <div className="mobile-contact-info">
+            <ContactInfo/>
+          </div>
+          <div className="mobile-copyright">
+            <div className="copyright">
+              {'© Rachael Metcalf'}
+            </div>
+          </div>
       </div>
     );
   }

@@ -1,0 +1,9 @@
+.sub-title {
+  margin: 30px 0;
+  color: #8B6773;
+}
+
+.sub-title .sub-title-hr {
+  margin-left: 30%;
+  margin-right: 30%;
+}

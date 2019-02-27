@@ -1,0 +1,21 @@
+.nav-bar {
+  background-color: white;
+  height: 71px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  box-shadow: 5px 0 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.nav-bar .nav-bar-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-bar .nav-bar-links .navigation-item {
+  flex: 1;
+  border-right: 1px solid rgba(33, 37, 41, .1);
+  border-left: 1px solid rgba(33, 37, 41, .1);
+}

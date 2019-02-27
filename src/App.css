@@ -1,4 +1,143 @@
-.App {
+@font-face {
+  font-family: handwriting;
+  src: url('./Assets/handwriting.ttf');
+}
+
+.app {
+  position: relative;
   text-align: center;
-  padding-top: 55px;
+  background-image: url('Assets/background.png');
+  padding-bottom: 100px;
+  padding-top: 0;
+  min-height: 100vh;
+}
+
+.app .main-content {
+  margin-left: 350px;
+  margin-right: 50px;
+  background-color: white;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 0 0 10px 10px;
+}
+
+.app .main-content .body {
+  padding: 10px;
+}
+
+.app .side-nav {
+  margin-left: 50px;
+}
+
+.app .mobile-contact-info .contact-info {
+  display: none;
+}
+
+.app .nav-bar {
+  display: none;
+}
+
+.app .main-content .top-banner {
+  padding-bottom: 30px;
+}
+
+.app .main-content .bottom-banner {
+  padding-top: 30px;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+hr {
+  margin: 0;
+  color: rgba(33, 37, 41, .1);
+  border-color: rgba(33, 37, 41, .1);
+  background-color: rgba(33, 37, 41, .1);
+}
+
+a {
+  color: #86606C;
+}
+
+a:hover {
+  color: #B53743;
+  cursor: pointer;
+}
+
+.vertical-align {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  color: white;
+}
+
+.app .mobile-copyright .copyright {
+  display: none;
+}
+
+/* ultra-wide monitor handling */
+@media(min-width: 2500px) {
+  .app .main-content {
+    margin-right: 500px;
+    margin-left: 800px; 
+  }
+
+  .app .main-content .body {
+    padding: 50px 200px;
+  }
+
+  .app .side-nav {
+    margin-left: 500px;
+  }
+
+}
+
+/* Tablet */
+@media(max-width: 997px) {
+  .app .main-content {
+    margin-right: 25px;
+    margin-left: 275px;
+  }
+
+  .app .side-nav {
+      margin-left: 10px;
+  }
+  
+}
+
+/* Mobile */
+@media(max-width: 767px) {
+  .app {
+    padding-top: 80px;
+  }
+  
+  .app .main-content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .app .main-content .body {
+    padding: 5px;
+  }
+
+  .app .side-nav {
+      display: none;
+  } 
+  
+  .app .nav-bar {
+    display: block;
+  }
+
+  .app .mobile-copyright .copyright{
+    display: block;
+  }
+
+  .app .mobile-contact-info .contact-info {
+    display: block;
+  }
 }

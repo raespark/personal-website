@@ -1,0 +1,14 @@
+.site-banner {
+  text-align: left;
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+  border-top: 10px solid #ff649b;
+  border-bottom: 10px solid #ff649b;
+}
+
+.site-banner .site-banner-image {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}

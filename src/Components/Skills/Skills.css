@@ -1,0 +1,41 @@
+.skills .skill-row {
+  display: flex;
+  flex: 0 0 100%;
+  justify-content: center;
+  flex-flow: row wrap; 
+  padding-bottom: 25px;
+}
+
+.skills .skills-tools .skill-row .skill{
+  flex: 0 0 20%;
+}
+
+.skills .skill-row .skill{
+  flex: 0 0 25%;
+}
+
+
+.skills .skills-section {
+  padding: 0 20px;
+  
+}
+
+@media(max-width: 997px) {
+  .skills .skills-tools .skill-row .skill{
+    flex: 0 0 20%;
+  }
+  
+  .skills .skill-row .skill{
+    flex: 0 0 33%;
+  }
+}
+
+@media(max-width: 767px) {
+  .skills .skills-tools .skill-row .skill{
+    flex: 0 0 33%;
+  }
+  
+  .skills .skill-row .skill{
+    flex: 0 0 100%;
+  }
+}

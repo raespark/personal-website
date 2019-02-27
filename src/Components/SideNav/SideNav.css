@@ -1,0 +1,45 @@
+.side-nav {
+    position: fixed;
+    top: 0px;
+    margin-left: 50px;
+    width: 250px;
+}
+
+.side-nav .side-nav-header .side-nav-title-divider {
+    padding-right: 40%;
+    padding-left: 40%;
+    margin: 10px;
+} 
+
+.side-nav .side-nav-body {
+    background: white;
+    border-radius: 0 0 10px 10px;
+    align-content: center;
+    padding-bottom: 20px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.side-nav .side-nav-body .side-nav-photo .photo{
+    max-height: 150px;
+    max-width: 150px;
+    margin: 15px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid rgba(33, 37, 41, .2);
+}
+
+.side-nav .side-nav-body .side-nav-header {
+    font-family: handwriting;
+    margin-bottom: 30px;
+}
+
+.side-nav .side-nav-body .side-nav-header .side-nav-title {
+    margin: 10px;
+}
+
+
+@media(max-width: 997px) {
+    .side-nav {
+        margin-left: 10px;
+    }
+}

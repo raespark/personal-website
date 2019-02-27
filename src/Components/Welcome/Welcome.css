@@ -1,0 +1,23 @@
+.welcome h1 {
+  font-size: 6em;
+  margin-bottom: 20px;
+  font-family: handwriting;
+}
+
+.welcome h5 {
+  padding: 0 20%;
+}
+
+.welcome .brand-color {
+  color: #8B6773;
+}
+
+@media(max-width: 767px) {
+  .welcome h1 {
+    font-size: 5em;
+  }
+  
+  .welcome h5 {
+    padding: 0 10%;
+  }
+}

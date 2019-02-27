@@ -1,49 +1,67 @@
 import React, { Component } from 'react';
 import SectionTitle from '../SectionTitle/SectionTitle';
-import majopon from '../../Assets/majopon.gif';
-import Link from '../Link/Link';
+import Images from '../../utils/Images';
 import './Projects.css';
+import SubTitle from '../SubTitle/SubTitle';
+import ParagraphImage from '../ParagraphImage/ParagraphImage';
 
 class Projects extends Component {
-
   render() {
+    let projects = [
+        {
+          title: 'Grow',
+          description: 'An interactive experience made over the course of 4 days for the ExtraCredits Holiday 2018 Game Jam, ' + 
+          'and was chosen to be featured on the ExtraCredits YouTube channel for interesting design.  ' + 
+          'Levels are procedurely laid out adheering to specific rules to create an immersive and relaxing simulation of a walk in the forest.  ' + 
+          'Made in the Godot engine.',
+          image: Images.grow,
+          links: [
+            {text: 'Download', url: 'https://raespark.itch.io/grow'},
+            {text: 'ExtraCredits Video', url: 'https://youtu.be/Gs8lQFh7Ghk'}
+          ]
+        },
+        {
+          title: 'Tilted',
+          description: 'A puzzle platformer that challenges the player by having the world around them shift as they move. ' + 
+          'Created for the very first ExtraCredits Game jam over a single weekend. Features one of the first songs I\'ve ever written!',
+          image: Images.tilted,
+          links: [
+            {text: 'Play', url: 'https://raespark.itch.io/tilted'},
+            {text: 'Source', url: 'https://github.com/raespark/Tilted'}
+          ]
+        },
+        {
+          title: 'Majopon',
+          description: 'A 2-player pong-like game where the players create the \"ball\" using a magic spell and try to block their opponent\'s spells from getting past them into the \"goal\."  ' + 
+          'Created over the course of about 2 weeks off and on between work for the 4th FEMICOM game jam in the Godot engine. Features some of my first animations, and my first experience with the Godot game engine.' ,
+          image: Images.majopon,
+          links: [
+            {text: 'Download', url: 'https://raespark.itch.io/majopon'},
+            {text: 'Source', url: 'https://github.com/raespark/Majopon'}
+          ]
+        },
+        {
+          title: 'Personal Website',
+          description: 'This very site you\'re using! All the styling and components are written and created by me, ' + 
+          'using Node, React and lots of trial-and-error with CSS. Created over the course of about a week, and using icons from ' + 
+          'Icons8, except for the icon of myself which was made by me. The custom font featured was created using Caligraphr, and is a font of my handwriting.',
+          image: Images.here,
+          links: [
+            {text: 'Source', url: 'https://github.com/raespark/personal-website'}
+          ]
+        }
+    ];
     return (
-        <div>
-        <SectionTitle title="Projects"/>
-        <div className="row">
-          <div className="col-xs-12 projects-image-div">
-            <img className="projects-image" src={majopon} alt="Majopon screenshot"/>
-          </div>
-          <div className="col-sm-12 col-lg-6 projects-text">
-            <h4 className="project-title">Majopon:</h4>
-            <p className="project-description">
-            A pong-like game made for the <Link url="https://itch.io/jam/makecutepong" content="Femicom make cute pong game jam."/>
-            Made in the <Link url="https://godotengine.org/" content="Godot engine"/> over the course of about 2 weeks, 
-            as a completely independent project. The rules of the game is similar to pong, 
-            if the ball (or in this case magic spell) gets past you, the other player gets a point. Player with the most points wins. 
-            However, in this game you control the spawning of "the ball" by casting as many spells as you want!
-            Each spell you cast is color coded to match your character, 
-            and if two opposing spells collide they cancel each other out.
-            Grab a friend (or foe), pick a witch, and get spell casting!
-            </p>
-            <h5>links:</h5>
-            <div className="link-list">
-              <li><Link url="https://raespark.itch.io/majopon" content="Download"/></li>
-              <li><Link url="https://github.com/raespark/Majopon" content="Source"/></li>
+      <div className="projects">
+        <SectionTitle title="projects"/> 
+        {projects.map((project, key) => {
+          return (
+            <div>
+              <SubTitle title={project.title}/>
+              <ParagraphImage text={project.description} image={project.image} links={project.links} inverse={(key%2 === 0)}/>
             </div>
-          </div>
-          <div className="col-sm-12 col-lg-6 projects-text">
-            <h4 className="project-title">Personal Website:</h4>
-            <p className="project-description">
-            The site you're currently using! Made in react and node, using Bootstrap for some styling and components.
-            </p>
-            <h5>links:</h5>
-            <div className="link-list">
-              <li><Link url="https://github.com/raespark/personal-website" content="Source"/></li>
-            </div>
-          </div>
-        </div>
-        </div>
+          )})}
+      </div>
     );
   }
 }

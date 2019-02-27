@@ -1,31 +1,33 @@
 import React, { Component } from 'react';
 import SectionTitle from '../SectionTitle/SectionTitle';
-import Link from '../Link/Link';
-import me from '../../Assets/me.jpg';
+import SubTitle from '../SubTitle/SubTitle';
+import WhoAmI from './WhoAmI/WhoAmI';
+import WorkExperience from './WorkExperience/WorkExperience';
+import Accomplishments from './Accomplishments/Accomplishments';
 import './About.css';
 
 class About extends Component {
-
   render() {
+  
     return (
-        <div>
-          <SectionTitle title="About"/>
-          <div className="row">
-            <div className="about-image col-xs-12">
-              <img className="picture-of-me" src={me} alt="Me"/>
-            </div>
-            <div className="about-body col-xs-12">
-              <p>
-                I graduated from the University of Texas at Austin in May, 2017 with a degree in Computer Science. 
-                Outside of work, I enjoy working on personal projects primarily involving Game Development, 
-                and am currently developing projects under the title <Link url="http://discorgigames.com/" content="Discorgi Games"/>.
-                I also enjoy drawing and animating, which I also put to work in my games. 
-                The experience from making games has given me a strong appreciation for the importance of good UX and good design. 
-                
-              </p>
-            </div>
-          </div>
+      <div className="about">
+        <SectionTitle title="about"/>
+        <SubTitle title="Who am I?"/>
+        <WhoAmI/>
+        <SubTitle title="What have I done?"/>
+        <div className="experience">
+          <WorkExperience 
+            jobTitle='Software Engineer'
+            company='HomeAway'
+            dates = {[
+              {description: 'Full Time (Front End)', time: '2017 - Present'},
+              {description: 'Intern (Front End)', time: 'Summer 2016'},
+              {description: 'Intern (Back End)', time: 'Summer 2015'}
+            ]}
+          />
+          <Accomplishments/>
         </div>
+      </div>
     );
   }
 }
