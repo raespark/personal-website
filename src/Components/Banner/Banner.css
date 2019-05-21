@@ -1,14 +1,39 @@
 .site-banner-spacer {
   margin: 0 -30px;
-  padding-top: 10px;
+  padding-top: 25px;
   padding-bottom: 10px;
+  position: relative;
 }
 
+.site-banner-spacer::before,
+.site-banner-spacer::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top-color: #8C657B;
+  border-bottom-color: transparent;
+  border-style: solid;
+  border-width: 10px 15px;
+  position: absolute;
+  bottom: -10px;
+}
 
+.site-banner-spacer::before {
+  border-left-color: transparent;
+  border-right-color: #8C657B;
+  left: 0;
+}
+
+.site-banner-spacer::after {
+  border-left-color: #8C657B;
+  border-right-color: transparent;
+  right: 0;
+}
 
 .site-banner-border {
   border-top: 10px solid #EFD9E2;
   border-bottom: 10px solid #EFD9E2;
+  background-color: white;
 }
 
 .site-banner-spacer .site-banner-border .site-banner-color{
@@ -22,5 +47,10 @@
   .site-banner-spacer {
     margin: 0;
     padding: 0;
+  }
+
+  .site-banner-spacer::before,
+  .site-banner-spacer::after {
+    content: none;
   }
 }

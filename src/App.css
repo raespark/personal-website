@@ -22,8 +22,6 @@
 
 .app .main-content .body {
   margin: 0 25px 16px 25px;
-  border-right: 1px solid rgba(33, 37, 41, .1);
-  border-left: 1px solid rgba(33, 37, 41, .1);
   padding: 30px 10px;
 }
 
@@ -106,7 +104,7 @@ p, li {
 }
 
 /* Tablet */
-@media(max-width: 1130px) {
+@media(max-width: 997px) {
   .app .main-content {
     margin-right: 20px;
     margin-left: 280px;
@@ -131,7 +129,10 @@ p, li {
   }
 
   .app .main-content .body {
+    margin: 0 10px 16px 10px;
     padding: 25px 10px;
+    border-right: 1px solid rgba(33, 37, 41, .1);
+    border-left: 1px solid rgba(33, 37, 41, .1);
   }
 
   .app .side-nav {
