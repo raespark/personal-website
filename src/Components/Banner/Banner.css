@@ -43,7 +43,7 @@
   margin: 5px 0;
 }
 
-@media(max-width: 1130px) {
+@media(max-width: 997px) {
   .site-banner-spacer {
     margin: 0;
     padding: 0;
