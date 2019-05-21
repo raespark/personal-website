@@ -1,7 +1,6 @@
 .side-nav {
     position: fixed;
     top: 0px;
-    margin-left: 50px;
     width: 250px;
 }
 
@@ -16,7 +15,7 @@
     border-radius: 0 0 10px 10px;
     align-content: center;
     padding-bottom: 20px;
-    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 10px 0 #8C657B;
 }
 
 .side-nav .side-nav-body .side-nav-photo .photo{
@@ -35,11 +34,4 @@
 
 .side-nav .side-nav-body .side-nav-header .side-nav-title {
     margin: 10px;
-}
-
-
-@media(max-width: 997px) {
-    .side-nav {
-        margin-left: 10px;
-    }
 }
