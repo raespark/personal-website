@@ -43,8 +43,9 @@ class Projects extends Component {
         {
           title: 'Personal Website',
           description: 'This very site you\'re using! All the styling and components are written and created by me, ' + 
-          'using Node, React and lots of trial-and-error with CSS. Created over the course of about a week, and using icons from ' + 
-          'Icons8, except for the icon of myself which was made by me. The custom font featured was created using Caligraphr, and is a font of my handwriting.',
+          'using Node, React and lots of trial-and-error with CSS. This site uses icons from Icons8, ' + 
+          'except for the icon of myself (featured in the about section) which was made by me, ' +  
+          'and the custom font of my handwriting was created using Caligraphr',
           image: Images.here,
           links: [
             {text: 'Source', url: 'https://github.com/raespark/personal-website'}

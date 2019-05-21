@@ -5,4 +5,25 @@
 
 .accomplishments ul li {
   text-align: left;
+  margin: 10px 50px;
+}
+
+@media(max-width: 997px) {
+  .accomplishments ul li {
+    text-align: left;
+    margin: 10px 20px;
+  }
+}
+
+@media(max-width: 767px) {
+  /* remove bullet styline */
+  .accomplishments ul {
+    padding-inline-start: 0;
+    list-style: none;
+  }
+
+  .accomplishments ul li {
+    text-align: center;
+    margin: 20px 15px;
+  }
 }

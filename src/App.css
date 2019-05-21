@@ -6,26 +6,29 @@
 .app {
   position: relative;
   text-align: center;
-  background-image: url('Assets/background.png');
+  background-color: #F085A2;
   padding-bottom: 100px;
   padding-top: 0;
   min-height: 100vh;
 }
 
 .app .main-content {
-  margin-left: 350px;
-  margin-right: 50px;
+  margin-left: 420px;
+  margin-right: 80px;
   background-color: white;
-  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
   border-radius: 0 0 10px 10px;
 }
 
 .app .main-content .body {
-  padding: 10px;
+  margin: 0 25px 16px 25px;
+  border-right: 1px solid rgba(33, 37, 41, .1);
+  border-left: 1px solid rgba(33, 37, 41, .1);
+  padding: 30px 10px;
 }
 
 .app .side-nav {
-  margin-left: 50px;
+  margin-left: 80px;
 }
 
 .app .mobile-contact-info .contact-info {
@@ -80,6 +83,10 @@ a:hover {
   display: none;
 }
 
+p, li {
+  color: #70666A;
+}
+
 /* ultra-wide monitor handling */
 @media(min-width: 2500px) {
   .app .main-content {
@@ -88,7 +95,8 @@ a:hover {
   }
 
   .app .main-content .body {
-    padding: 50px 200px;
+    padding: 50px 150px;
+    margin: 0 50px;
   }
 
   .app .side-nav {
@@ -98,10 +106,10 @@ a:hover {
 }
 
 /* Tablet */
-@media(max-width: 997px) {
+@media(max-width: 1130px) {
   .app .main-content {
-    margin-right: 25px;
-    margin-left: 275px;
+    margin-right: 20px;
+    margin-left: 280px;
   }
 
   .app .side-nav {
@@ -113,16 +121,17 @@ a:hover {
 /* Mobile */
 @media(max-width: 767px) {
   .app {
-    padding-top: 80px;
+    padding-top: 100px;
   }
   
   .app .main-content {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0 15px;
+    box-shadow: none;
+    border-radius: 10px;
   }
 
   .app .main-content .body {
-    padding: 5px;
+    padding: 25px 10px;
   }
 
   .app .side-nav {

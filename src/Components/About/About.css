@@ -3,28 +3,26 @@
   align-items: center;
   padding: 0 30px;
   flex-flow: row;
+  flex-flow: row wrap;
 }
 
-.about .experience .work-experience{
-  flex: 0 0 45%;
+.about .experience .work-experience, .about .experience .accomplishments {
+  flex: 0 0 100%;
 }
 
 .about .experience .accomplishments {
-  padding-right: 40px;
-  flex: 0 0 55%
+  margin-top: 40px;
+  padding-right: 20px;
 }
 
-@media(max-width: 1200px) {
-  .about .experience {
-    flex-flow: row wrap;
-  }
 
-  .about .experience .work-experience, .about .experience .accomplishments {
-    flex: 0 0 100%;
+@media(max-width: 767px) {
+  .about .experience {
+    padding: 0 10px;
   }
 
   .about .experience .accomplishments {
     margin-top: 40px;
-    padding-right: 20px;
+    padding-right: 0;
   }
 }

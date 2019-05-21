@@ -1,14 +1,26 @@
-.site-banner {
-  text-align: left;
-  height: 150px;
-  width: 100%;
-  overflow: hidden;
-  border-top: 10px solid #ff649b;
-  border-bottom: 10px solid #ff649b;
+.site-banner-spacer {
+  margin: 0 -30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.site-banner .site-banner-image {
-  object-fit: cover;
-  height: 100%;
+
+
+.site-banner-border {
+  border-top: 10px solid #EFD9E2;
+  border-bottom: 10px solid #EFD9E2;
+}
+
+.site-banner-spacer .site-banner-border .site-banner-color{
+  height: 50px;
   width: 100%;
+  background-color: #D67690;
+  margin: 5px 0;
+}
+
+@media(max-width: 1130px) {
+  .site-banner-spacer {
+    margin: 0;
+    padding: 0;
+  }
 }

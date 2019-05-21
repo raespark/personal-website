@@ -18,17 +18,12 @@ class App extends Component {
         <NavBar/>
         <SideNav/>
           <div className="main-content">
-              <div className="top-banner">
-                <Banner/>
-              </div>
+              <Banner/>
               <div className="body">
                 <Welcome/>
                 <About/>
                 <Skills/>
                 <Projects/>
-              </div>
-              <div className="bottom-banner">
-                <Banner/>
               </div>
           </div>
           <div className="mobile-contact-info">

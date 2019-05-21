@@ -3,7 +3,6 @@ import Github from '../Assets/github.png';
 import Linkedin from '../Assets/linkedin.png';
 import Me from '../Assets/me.jpg';
 
-import Banner from '../Assets/banner.jpg';
 import Flower from '../Assets/flower-accent.png';
 
 import Icon from '../Assets/rm-icon-pinkgrey.png';
@@ -47,10 +46,6 @@ const Images = {
   me: {
     image: Me,
     text: 'photo of me '
-  },
-  banner: {
-    image: Banner,
-    text: 'photo of sakura blossoms'
   },
   flower: {
     image: Flower,
