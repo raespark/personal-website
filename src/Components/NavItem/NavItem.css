@@ -12,8 +12,11 @@
     cursor: pointer;
 }
 
-.navigation-item .navigation-text:hover {
-    background-color: lightgray;
+@media(hover) {
+    .navigation-item .navigation-text:hover{
+        background-color: #EFD9E2;
+        color: #8B6773;
+    }
 }
 
 .navigation-item .navigation-text h3 {

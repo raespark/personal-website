@@ -10,7 +10,7 @@ class SubTitle extends Component {
     let title = this.props.title ? this.capitalizeFirstLetter(this.props.title) : '';
     return (
         <div className="sub-title">
-            <h3 className="sub-title-text">{title}</h3>
+            <h3 className="sub-title-text highlight-color">{title}</h3>
             <hr className="sub-title-hr"/>
         </div>
     );

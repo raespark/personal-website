@@ -8,10 +8,6 @@
   padding: 0 20%;
 }
 
-.welcome .brand-color {
-  color: #8B6773;
-}
-
 @media(max-width: 767px) {
   .welcome h1 {
     font-size: 5em;

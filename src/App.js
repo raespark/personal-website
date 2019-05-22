@@ -25,6 +25,7 @@ class App extends Component {
                 <Skills/>
                 <Projects/>
               </div>
+              <Banner inverse />
           </div>
           <div className="mobile-contact-info">
             <ContactInfo/>

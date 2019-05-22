@@ -1,8 +1,13 @@
 .site-banner-spacer {
   margin: 0 -30px;
-  padding-top: 25px;
+  padding-top: 50px;
   padding-bottom: 10px;
   position: relative;
+}
+
+.site-banner-spacer-inverse {
+  padding-top: 10px;
+  padding-bottom: 50px;
 }
 
 .site-banner-spacer::before,
@@ -16,6 +21,13 @@
   border-width: 10px 15px;
   position: absolute;
   bottom: -10px;
+}
+
+.site-banner-spacer-inverse::after,
+.site-banner-spacer-inverse::before {
+  top: -10px;
+  border-top-color: transparent;
+  border-bottom-color: #8C657B;
 }
 
 .site-banner-spacer::before {
@@ -44,7 +56,8 @@
 }
 
 @media(max-width: 997px) {
-  .site-banner-spacer {
+  .site-banner-spacer, 
+  .site-banner-spacer-inverse {
     margin: 0;
     padding: 0;
   }

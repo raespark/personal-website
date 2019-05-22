@@ -13,7 +13,7 @@ class NavItem extends Component {
     let text = capitalizeFirstLetter(this.props.text);
     return (
       <div className="navigation-item">
-        <a className="navigation-link" onClick={() => {this.scrollToAnchor(this.props.text)}}>
+        <a className="navigation-link mm" onClick={() => {this.scrollToAnchor(this.props.text)}}>
           <div className="navigation-text">
             <h4>{text}</h4>
           </div>

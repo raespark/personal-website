@@ -3,6 +3,14 @@
   src: url('./Assets/handwriting.ttf');
 }
 
+.brand-color {
+  color: #8B6773;
+}
+
+.highlight-color {
+  color: #D67690;
+}
+
 .app {
   position: relative;
   text-align: center;
@@ -129,7 +137,7 @@ p, li {
   }
 
   .app .main-content .body {
-    margin: 0 10px 16px 10px;
+    margin: 0 10px;
     padding: 25px 10px;
     border-right: 1px solid rgba(33, 37, 41, .1);
     border-left: 1px solid rgba(33, 37, 41, .1);
