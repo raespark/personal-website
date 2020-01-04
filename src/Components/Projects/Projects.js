@@ -9,6 +9,18 @@ class Projects extends Component {
   render() {
     let projects = [
         {
+          title: 'MyGamesCollection',
+          description: '[Work In Progress] A website to track a game collection across multiple platforms' + 
+          'to be able to search and view all the games that you own in one place, kind of like a digital game bookcase!' + 
+          'You can view game information, and take notes on the games in your collection. The front end is created using the React and Node frameworks,' + 
+          'And the back end is in Java with a SQLite DB.',
+          image: Images.myGamesCollection,
+          links: [
+            {text: 'Front End Source', url: 'https://github.com/raespark/node-my-game-collection'},
+            {text: 'Back End Source', url: 'https://github.com/raespark/my-games-collection-api'}
+          ]
+        },
+        {
           title: 'Grow',
           description: 'An interactive experience made over the course of 4 days for the ExtraCredits Holiday 2018 Game Jam, ' + 
           'and was chosen to be featured on the ExtraCredits YouTube channel for interesting design.  ' + 

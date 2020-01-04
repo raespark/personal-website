@@ -24,6 +24,7 @@ import Communication from '../Assets/skills/soft/communication.png';
 import Leadership from '../Assets/skills/soft/leadership.png';
 import Mentorship from '../Assets/skills/soft/mentorship.png';
 
+import MyGamesCollection from '../Assets/projects/mygamescollection.gif';
 import Grow from '../Assets/projects/grow.gif';
 import Tilted from '../Assets/projects/tilted.gif';
 import Majopon from '../Assets/projects/majopon.gif';
@@ -110,6 +111,10 @@ const Images = {
   mentorship: {
     image: Mentorship, 
     text: 'a hand with a sappling icon'
+  },
+  myGamesCollection: {
+    image: MyGamesCollection,
+    text: 'gif of interactions with the MyGamesCollection web page'
   },
   grow: {
     image: Grow, 
