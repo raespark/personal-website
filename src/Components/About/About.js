@@ -18,9 +18,9 @@ class About extends Component {
         <div className="experience">
           <WorkExperience 
             jobTitle='Software Engineer'
-            company='HomeAway'
+            company='Vrbo / HomeAway'
             dates = {[
-              {description: 'Full Time (Front End)', time: '2017 - Present'},
+              {description: 'Full Time (Front End)', time: '2017 - 2019'},
               {description: 'Intern (Front End)', time: 'Summer 2016'},
               {description: 'Intern (Back End)', time: 'Summer 2015'}
             ]}
